@@ -1,0 +1,9 @@
+
+:root {
+	--scale: 12;
+	--wall-scale: calc(var(--scale) / 3);
+	--ext-wall-scale: calc(var(--scale) / 2);
+
+	--wall-width: calc(1px * var(--wall-scale));
+	--ext-wall-width: calc(1px * var(--ext-wall-scale));
+}

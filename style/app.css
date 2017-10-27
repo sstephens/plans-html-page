@@ -1,0 +1,205 @@
+
+.house-main {
+	width: calc(47px * var(--scale));
+	height: calc(31px * var(--scale));
+}
+
+	.house-main > .left-top-quarter {
+		width: calc(30px * var(--scale));
+		height: calc(14px * var(--scale));
+	}
+		.house-main > .left-top-quarter > .master {
+			width: calc(8.8px * var(--scale));
+			height: calc(14px * var(--scale));
+		}
+			.house-main > .left-top-quarter > .master > .room-hall {
+				width: calc(8.8px * var(--scale));
+				height: calc(5.4px * var(--scale));
+			}
+			.house-main > .left-top-quarter > .master > .room-mid {
+				width: calc(8.8px * var(--scale));
+				height: calc(6px * var(--scale));
+			}
+			.house-main > .left-top-quarter > .master > .room-entry {
+				width: calc(8.8px * var(--scale));
+				height: calc(2.6px * var(--scale));
+			}
+				.house-main > .left-top-quarter > .master > .room-entry > .door {
+					width: calc(2px * var(--scale));
+					height: calc(2px * var(--scale));
+				}
+
+		.house-main > .left-top-quarter > .master-hall-closet {
+			width: calc(5.6px * var(--scale));
+			height: calc(11.2px * var(--scale));
+		}
+			.house-main > .left-top-quarter > .master-hall-closet > .master-hall {
+				width: calc(5.6px * var(--scale));
+				height: calc(5.4px * var(--scale));
+			}
+			.house-main > .left-top-quarter > .master-hall-closet > .master-closet {
+				width: calc(5.4px * var(--scale));
+				height: calc(5.4px * var(--scale));
+			}
+		
+		.house-main > .left-top-quarter > .master-bath-shower {
+			width: calc(4px * var(--scale));
+			height: calc(11.2px * var(--scale));
+		}
+			.house-main > .left-top-quarter > .master-bath-shower > .master-bath {
+				width: calc(4px * var(--scale));
+				height: calc(6.5px * var(--scale));
+			}
+			.house-main > .left-top-quarter > .master-bath-shower > .master-shower {
+				width: calc(4px * var(--scale));
+				height: calc(4.3px * var(--scale));
+			}
+				.house-main > .left-top-quarter > .master-bath-shower > .master-shower > .shower {
+					width: calc(2.6px * var(--scale));
+					height: calc(3px * var(--scale));
+				}
+				.house-main > .left-top-quarter > .master-bath-shower > .master-shower > .powder {
+					width: calc(1px * var(--scale));
+					height: calc(3px * var(--scale));
+				}
+				.house-main > .left-top-quarter > .master-bath-shower > .master-shower > .hall {
+					width: calc(4px * var(--scale));
+					height: calc(1px * var(--scale));
+				}
+		.house-main > .left-top-quarter > .hall-bath {
+			width: calc(4px * var(--scale));
+			height: calc(5.4px * var(--scale));
+		}
+		.house-main > .left-top-quarter > .hall-powder {
+			width: calc(8.2px * var(--scale));
+			height: calc(5.4px * var(--scale));
+		}
+		.house-main > .left-top-quarter > .laundry {
+			width: calc(6.2px * var(--scale));
+			height: calc(5.4px * var(--scale));
+		}
+		.house-main > .left-top-quarter > .pantry {
+			width: calc(2px * var(--scale));
+			height: calc(5.4px * var(--scale));
+		}
+
+	.house-main > .right-top-quarter {
+		width: calc(17px * var(--scale));
+		height: calc(14px * var(--scale));
+	}
+		.house-main > .right-top-quarter > .dinning-room {
+			width: calc(7px * var(--scale));
+			height: calc(10px * var(--scale));
+		}
+		.house-main > .right-top-quarter > .kitchen {
+			width: calc(10px * var(--scale));
+			height: calc(10px * var(--scale));
+		}
+		.house-main > .right-top-quarter > .hallway {
+			width: 100%;
+			height: calc(4px * var(--scale));
+		}
+			.house-main > .right-top-quarter > .hallway > .door {
+				width: calc(2.9px * var(--scale));
+				height: calc(2.9px * var(--scale));
+			}
+
+	.house-main > .left-bottom-quarter {
+		width: calc(26.66px * var(--scale));
+		height: calc(17px * var(--scale));
+	}
+		.house-main > .left-bottom-quarter > .bed-two {
+			width: calc(11.99px * var(--scale));
+			height: calc(11.3px * var(--scale));
+		}
+			.house-main > .left-bottom-quarter > .bed-two > .room {
+				width: calc(8.65px * var(--scale));
+				height: calc(11.3px * var(--scale));
+			}
+			.house-main > .left-bottom-quarter > .bed-two > .entry {
+				width: calc(3px * var(--scale));
+				height: calc(3px * var(--scale));
+			}
+			.house-main > .left-bottom-quarter > .bed-two > .door {
+				width: calc(2px * var(--scale));
+				height: calc(2px * var(--scale));
+				right: 6px;
+			}
+			.house-main > .left-bottom-quarter > .bed-two > .closet {
+				width: calc(2px * var(--scale));
+				height: calc(7.99px * var(--scale));
+			}
+			.house-main > .left-bottom-quarter > .bed-two > .closet-back {
+				width: calc(.67px * var(--scale));
+				height: calc(7.99px * var(--scale));
+			}
+
+		.house-main > .left-bottom-quarter > .bed-one {
+			width: calc(10.33px * var(--scale));
+			height: calc(11.3px * var(--scale));
+		}
+			.house-main > .left-bottom-quarter > .bed-one > .door {
+				width: calc(2px * var(--scale));
+				height: calc(2px * var(--scale));
+				right: initial;
+				left: 3px;
+			}
+			.house-main > .left-bottom-quarter > .bed-one > .room {
+				width: calc(7.99px * var(--scale));
+				height: calc(11.3px * var(--scale));
+			}
+			.house-main > .left-bottom-quarter > .bed-one > .closet-entry {
+				width: calc(2px * var(--scale));
+				height: calc(3.3px * var(--scale));
+			}
+			.house-main > .left-bottom-quarter > .bed-one > .closet {
+				width: calc(2px * var(--scale));
+				height: calc(7.7px * var(--scale));
+			}
+
+		.house-main > .left-bottom-quarter > .entry {
+			width: calc(4px * var(--scale));
+			height: calc(11.7px * var(--scale));
+		}
+			.house-main > .left-bottom-quarter > .entry > .door {
+				width: calc(3px * var(--scale));
+				height: calc(3px * var(--scale));
+			}
+			.house-main > .left-bottom-quarter > .entry > .door.left {
+				width: calc(2.2px * var(--scale));
+				height: calc(2.2px * var(--scale));
+				top: 8px;
+			}
+		
+		.house-main > .left-bottom-quarter > .porch {
+			width: 100%;
+			height: calc(5px * var(--scale));
+		}
+
+	.house-main > .right-bottom-quarter {
+		width: calc(20px * var(--scale));
+		height: calc(17px * var(--scale));
+	}
+		.house-main > .right-bottom-quarter > .living-room {
+			width: calc(18.9px * var(--scale));
+			height: calc(16.7px * var(--scale));
+		}
+
+.house-garage {
+	width: calc(22px * var(--scale));
+	height: calc(23px * var(--scale));
+	margin-top: calc(8px * var(--scale));
+}
+	.house-garage > .garage-left {
+		width: calc(11px * var(--scale));
+		height: 100%;
+	}
+		.house-garage > .garage-left > .fire-place {
+			width: calc(2px * var(--scale));
+			height: calc(8px * var(--scale));
+			margin-top: calc(10.4px * var(--scale));
+		}
+	.house-garage > .garage-right {
+		width: calc(10.6px * var(--scale));
+		height: 100%;
+	}
